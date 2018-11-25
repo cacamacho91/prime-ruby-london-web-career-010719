@@ -1,4 +1,5 @@
-require 'math'
+require 'prime'
+
 def prime?(number)
   is_prime = true
   for num in 2..number/2 do
